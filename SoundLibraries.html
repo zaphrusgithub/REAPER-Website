@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sound Libraries</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header{
+    background-color:rgb(208, 208, 208);
+    color:#222222;
+    font-family:Courier New;
+}
+body{
+    background-color:#222222;
+    color:#E6E6E6;
+    font-family:Courier New;
+}
+footer{
+    background-color:#222222;
+    color:#E6E6E6;
+    font-family: Courier New;
+}
+</style>
+</head>
+<header>
+<br>
+<div>
+	<div>	
+    <h1 style=font-family:Courier New;>REAPER Tutorial Sound Libraries</h1>
+    </div>
+</div>
+<!-- Navbar -->
+<div>
+    <div style="margin-left:auto;margin-right:auto;color:rgb(40, 149, 40);">
+      <a href="index.html">Home</a>
+      <a href="Basics.html">Getting Started</a>
+      <a href="Recording.html">Recording and Editing</a>
+      <a href="SoundLibraries.html">Sound Libraries</a>
+      <a href="Videos.html">Videos and Other Links</a>
+      <a href="ContactMe.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<body>
+<div style="margin-left:250px">
+
+  <div>
+    <div>
+      <h1>Sound Libraries</h1>
+      <p>Sound Libraries are online repositories of audio files designed to be used by producers. It can be fun to make your own sounds but sometimes its not realistic to create hundreds or possibly thousands of songs for a single project.
+        <br>
+        <br>Luckily there are hundreds of royalty-free sound libraries availible that are compatible with many DAWS. These sometimes have different MIDI instruments, sound effects, drum kits and more.
+        <br>These sound libraries are huge time savers and even if you don't like how a sound fits entirely you can just manipulate the effect until its to your liking.
+        <br>
+        <br>Here's a list of sound libraries I find useful:
+        <dl>
+          <dt><b>99Sounds</b></dt>
+          <dd>-High quality, created for indie artists and vast library of sounds.</dd>
+          <dd>-Price: Free</dd>
+          <dd><a href="https://99sounds.org/vst-plugins/">99Sounds</a></dd>
+          <br>
+          <dt><b>SoundBible</b></dt>
+          <dd>-Excellent for getting started in sound design and files availible in both wav and mp3</dd>
+          <dd>-Price: Free</dd>
+          <dd><a href="https://soundbible.com/about.php">Sound Bible</a></dd>
+          <br>
+          <dt><b>Adobe Audition Sound Effects</b></dt>
+          <dd>-Accessible through Audition or Premiere Pro making it easy to import, contains more than just sounds for music (Cartoon sound effects, footsteps etc.)</dd>
+          <dd>-Price: Free</dd>
+          <dd><a href="https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html">Adobe Audition</a></dd>
+          <br>
+          <dt><b>Freesound</b></dt>
+          <dd>-Over 500,000 sounds currently, vast variety of sounds and not every sound will be the best quality</dd>
+          <dd>-Price: Free</dd>
+          <dd><a href="https://freesound.org">Freesound</a></dd>
+          <br>
+          <dt><b>RODE Ambisonic Library</b></dt>
+          <dd>-Immersive 360 degree sound, works well with VR sound design</dd>
+          <dd>-Price: Free</dd>
+          <dd><a href="https://library.soundfield.com">RODE</a></dd>
+        </dl>
+       <br>While these aren't all the sound libraries availible, you can definitely find most of what you want here.
+       <br>
+       <br>To install and use a sound library:
+       <ul>
+        <li>Click Options -> Preferences</li>
+        <li>Find plug-ins, click on VST</li>
+        <li>Direct REAPER to the folder containing the VST library</li>
+        <li>Click the re-scan button and REAPER will update with the new VST</li>
+        <li>Click insert on the menu bar and select "Insert Virtual Instrument" on New Track or click the FX button on the desired track</li>
+        <li>Select the VST or instrument from the list</li>
+      </ul>
+      
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h1>Effects</h1>
+      <p>Effects(FX) are a way to change or manipulate audio. There are hundreds of possible effects but the most common ones are:EQ(equalization), compression, reverb, delay and noise reduction.
+        <br>
+        <br>Virtual instruments like the ones we get from sound libraries, are also considered effects.
+        <br>
+        <br><img src="add-effect-in-reaper.jpg" alt="fx button">
+        <br>
+        <br>The easiest way to apply effects to a track is to click on the "FX" button.
+        <br>Once you click the button, you'll see your plug-ins and effects.
+        <br>
+        <br><img src="fx-800x418.png" alt="fx list">
+        <br>
+        <br>
+      </p>
+    </div>
+  </div>
+
+<div>
+    <div>
+      <h1>Adding effects</h1>
+      <p>You normally add effects to the whole track, however it is possible to add effects specifically to items.
+        <br>Adding an effect through the FX button applies said effect to the whole track. To add an effect:
+        <br>
+        <ul>
+          <li>Click the FX button to open list of availible effects</li>
+          <li>Choose the category of effect(VST, instruments etc.) or just select "All Effects"</li>
+          <li>Select your desired effect and click OK</li>
+          <li>That effect is now applied to the track</li>
+          <li>This can be edited at any time in the FX menu</li>
+        </ul>
+        <br>
+        <br>Note: Adding effects will not change or edit the audio file in any way. This is because REAPER uses "non-destructive" editing. This means that you can turn the effect on or off whenever you like.
+        This can be done by clicking the switch on the FX button. It will "turn-off" and this lets you know that there are no effects on the audio. This helps you compare the audio before and after effects.
+        <br>
+        <br><img src="add-effect-in-reaper.jpg" alt="fx button">
+        <br>
+
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h1>Printing and Rendering Audio</h1>
+      <p>As I mentioned above, adding an effect will not change the actual audio file at all. The way you apply the effect permanently (called "printing" the effect), you need to render the audo.
+        <br>
+        <br>To Render a Master Mix of a track, do this:
+        <ul>
+          <li>Click on File -> Render</li>
+          <li>Source should be "Master Mix"</li>
+          <li>Select an option in the Bounds mean to select the length of the file</li>
+          <li>Choose a directory to save the file to and name the file</li>
+          <li>Select audio format(wav, mp3 etc.)</li>
+          <li>Click Render</li>
+        </ul>
+        <br>To Render individual tracks:
+        <ul>
+          <li>Select the track(s) with Ctrl+Click</li>
+          <li>Click on File -> Render</li>
+          <li>Source should be "Stems Selected Tracks"</li>
+          <li>Select an option in the Bounds mean to select the length of the file</li>
+          <li>Choose a directory to save the file to and name the file</li>
+          <li>Select audio format(wav, mp3 etc.)</li>
+          <li>Click Render</li>
+        </ul>
+        <br>
+      </p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h1>Difference of File Types</h1>
+      <p><large>WAV Vs. MP3</large>
+      <br>WAV files tend to be larger as they retain the original audio quality
+      <br>
+      <br>MP3 files tend to be smaller as they compress the audio to take up less space
+      <br>
+      <br>Tips:
+      <ul>
+        <li>Save your REAPER files as WAVs if you plan on editing the audio more, once you are done you can save the file as an MP3(You won't hear the compression if its done once.)</li>
+        <li>.RPP files are only compatible with REAPER software</li>
+        <li>Everytime you record a take, you'll be prompted to save each track as it's own WAV file. Unless you edit them you won't need to render them seperately. You'll still have to do a render as a Master Mix if you want to combine the tracks.</li>
+      </ul>
+      <br>
+      <br>
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+        <br>
+        <br>
+        <br>
+      <p>Made by Alain Martin</a></p>
+    </div>
+  </footer>
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Recording and Editing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header{
+    background-color:rgb(208, 208, 208);
+    color:#222222;
+    font-family:Courier New;
+}
+body{
+    background-color:#222222;
+    color:#E6E6E6;
+    font-family:Courier New;
+}
+footer{
+    background-color:#222222;
+    color:#E6E6E6;
+    font-family: Courier New;
+}
+</style>
+</head>
+<header>
+<br>
+<div>
+	<div>	
+    <h1 style=font-family:Courier New;>REAPER Tutorial Recording and Editing</h1>
+    </div>
+</div>
+<!-- Navbar -->
+<div>
+    <div style="margin-left:auto;margin-right:auto;color:rgb(40, 149, 40);">
+      <a href="index.html">Home</a>
+      <a href="Basics.html">Getting Started</a>
+      <a href="Recording.html">Recording and Editing</a>
+      <a href="SoundLibraries.html">Sound Libraries</a>
+      <a href="Videos.html">Videos and Other Links</a>
+      <a href="ContactMe.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<body>
+<div style="margin-left:250px">
+
+  <div>
+    <div>
+      <h1>Recording</h1>
+      <p>First step, setting the BPM and time signature, which is at the top of the mixer.
+        <br>
+        <br><img src="reaper-bpm-800x419.png" alt="mixer example" width="800px" height="418px">
+        <br>
+        <br>Click on the BPM box to type in the desired tempo.
+        <br>
+        <br>Next to that, is the time signature box. Click it to change the signature.
+        <br>
+        <br>Next, we enable the track for recording. To do this go to your track and hit the dark red circle. It will turn on, indicating that its ready for recording.
+        <br>Click on the megaphone on the track to enable record monitoring.
+        <br>
+        <br><img src="record-monitoring-800x413.png" alt="track example" width="800px" height="418px">
+        <br>
+        <br>You'll also see an M and S under the red circle, these mean mute and solo buttons.
+        <br>
+        <br>Once you record your audio, you might need to loop it to fit the entire song length.
+        <br>
+        <br>To loop a section:
+        <ul>
+          <li>Left-click in the area above the tracks</li>
+          <li>Drag your mouse left or right</li>
+          <li>Select the timeframe to loop</li>
+          <li>Hit R or the Toggle Repeat button</li>
+        </ul>
+        <br>When you record or play the track, it will loop that section. When you record while looping, it will automatically record a new take with every loop.
+        <br>
+        <br><img src="repeat-button-800x420.png" alt="repeat button" width="800px" height="418px">
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h1>Editing</h1>
+      <p>After recording your first track, its time to edit it.
+        <br><b>To cut or split an item</b>, simply click on the spot you want to make a split.
+        <br>
+        <br>Your cursor will snap to the grid, you can turn this on or off using Alt+S.
+        <br>
+        <br>To make the split just hit S or right-click and choose "Split items at cursor".
+        <br>
+        <br><img src="reaper-snap-button-800x417.png" alt="Split button example" width="800px" height="418px">
+        <br>
+        <br>If you don't want to do that, you can also drag the edge of the item forward or backward to remove that part of the item.
+        <br>
+        <br>This doesn't get rid of the item, so if you did it by mistake, you can just re-drag the item back.
+        <br>
+        <br><img src="splitting-tracks-800x418.png" alt="splitting tracks" width="800px" height="418px">
+        <br>
+        <br><b>You can also stretch an item</b>, which speeds up or slows down the audio.
+        <br>
+        <br>Hover on the edge of an item, press and hold <b>Alt</b>, and click and drag the edge.(Note: this will diminish the quality of the audio.)
+        <br>
+        <br><b>Nudging</b> is another useful feature that REAPER has. This is used for shifting items exactly where you want them to go.
+        <br>
+        <br>Just click on the item, hold <b>Shift</b> and press left or right arrows. This will nudge the item slightly left or right.
+        <br>
+        <br>If it isn't as accurate as you would like, you can always <b>zoom</b> by scrolling up or down with your mouse wheel.
+        <br>
+        <br>Another basic feature is <b>crossfading</b>.
+        <br>
+        <br>When you drag an item over another it will automatically apply crossfade. You can also manually adjust this crossfade.
+        <br>
+        <br>Hover over the top corner of the items overlapping each other. Click and drag to change the crossfades length.
+        <br>This is also how you fade an item in or out.
+        <br>
+        <br><img src="crossfade-800x418.png" alt="crossfade example" width="800px" height="418px">
+        <br>
+        <br>You can also <b>highlight multiple items</b> over multiple tracks. There are a few ways to do this.
+        <br>
+        <ul>
+          <li>Right-click and drag your mouse across all items you want to select</li>
+          <li>Use Ctrl/Shift and click the items you want to select</li>
+          <li>Left-click and drag your mouse on the section that shows both time and measures</li>
+          <li>Hit Ctrl+Shift+C(copy) or Ctrl+Shift+X(cut)</li>
+        </ul>
+        <br>
+        <br>These will allow you to shorten, split or move items around in your track.
+        <br>
+        <br>To adjust <b>gain levels and panning</b>, you can access those on the left side where the tracks list is, or at the mixer at the bottom.
+        <br>
+        <br>All these features also have <b>shortcuts</b>. You can also make these shortcuts custom.
+        <br>
+        <br>Go to Actions -> Show action list, then select the action you want to give a shortcut to. Click on "Add...." type in the shortcut key(s), then hit OK.
+        <br>
+        <br>The last useful tool I'll discuss are <b>envelopes</b>. You can use these to adjust settings on a track at different parts of the track.
+        <br>This includes things like <b>volume panning and automation</b>.
+        <br>
+        <br><img src="trim.png" alt="trim" width="800px" height="418px">
+        <br>
+        <br><img src="volume-envelope.png" alt="volume envelope" width="800px" height="418px">
+        <br>
+        <br><img src="send.png" alt="envelope send" width="800px" height="418px">
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <footer>
+    <div>
+        <br>
+        <br>
+        <br>
+      <p>Made by Alain Martin</a></p>
+    </div>
+  </footer>
+
+
+</div>
+
+
+</body>
+</html>

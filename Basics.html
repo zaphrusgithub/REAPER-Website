@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Getting Started</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header{
+    background-color:rgb(208, 208, 208);
+    color:#222222;
+    font-family:Courier New;
+}
+body{
+    background-color:#222222;
+    color:#E6E6E6;
+    font-family:Courier New;
+}
+footer{
+    background-color:#222222;
+    color:#E6E6E6;
+    font-family: Courier New;
+}
+</style>
+</head>
+<header>
+<br>
+<div>
+	<div>	
+    <h1 style=font-family:Courier New;>REAPER Tutorial Getting Started</h1>
+    </div>
+</div>
+
+<div>
+    <div style="margin-left:auto;margin-right:auto;color:rgb(40, 149, 40);">
+      <a href="index.html">Home</a>
+      <a href="Basics.html">Getting Started</a>
+      <a href="Recording.html">Recording and Editing</a>
+      <a href="SoundLibraries.html">Sound Libraries</a>
+      <a href="Videos.html">Videos and Other Links</a>
+      <a href="ContactMe.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<body>
+<div style="margin-left:250px">
+
+  <div>
+    <div>
+      <h1>What you need to get started.</h1>
+      <p>REAPER requires only a couple things to get started, the correct operating system, an audio interface, headphones and a microphone(If you plan on recording your own audio).
+        <br>
+        <br>
+        Recommendations:
+        <ul>
+          <li>Operating System: Windows 7/8/10 / macOS X 10.5-10.14</li>
+          <li>Audio Interfaces: Focusrite Scarlett 2i2, PreSonus AudioBox USB 96, Behringer U-Phoria UMC404HD</li>
+          <li>Headphones: Sony MDR-7506</li>
+          <li>Microphone: Rode NT-USB</li>
+        </ul>
+        <br>
+        You need to make sure you're using compatible operating systems otherwise REAPER won't work correctly. Linux is availible to be used but REAPER for those systems are experimental and unsupported.
+        For audio interfaces they all do the same thing so it doesn't matter as much. It only matters if your microphone phantom powered, then you need to make sure your interface is compatible.(Most recent interfaces are.)
+        Headphones is personally up to you, just make sure that the headphone are closed-back headphones for the best listening experience. Microphones don't have to be anything fancy, once again, just make sure its compatible with your audio interface.
+
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h1>Setting up the Drivers</h1>
+      <p>You'll need to install the software and drivers for your specific audio interface. The product should have instructions to do so.
+        <br>
+        <br>Once everything is installed open REAPER and goto Options -> Preferences and setup your audio device settings.
+        <br>
+        <br><img src="options-preferences-800x419.png" alt="Options Screenshot">
+        <br>
+        <br>
+        For this tutorial I am using the Focusrite Scarlett 2i2, because of this I chose ASIO.
+        <br>
+        <br><img src="ASIOdriver-800x418.png" alt="Driver screenshot">
+        <br>
+        <br>
+        I also changed my sample rate from 44.1 kHz to 48 kHz because it will sync audio with video much better. If you don't need to sync it with video 44.1 kHz is perfectly okay.
+      </p>
+    </div>
+  </div>
+
+<div>
+    <div>
+      <h1>Preparing the Track</h1>
+      <p>After this setup we are now ready to create a track. A track is essentially the container where we keep our music.
+        <br> To start, goto the Track menu in the top-left corner to the left of the options menu we used earlier. 
+        <br> You can also hit Ctrl+T on Windows or Command+T on Mac.
+        <br>
+        <br><img src="reaper-track-options.png" alt="REAPER track options" width="800px" height="418px">
+        <br>
+        <br> "Insert new track" will add an audio track you can record either instruments or vocals on. "Insert virtual instrument on new track"
+        <br>
+        <br> Once the track is inserted make sure your input settings are correct.
+        <br>
+        <br> You're able to choose the input settings on the left hand side. The options are:
+        <ul>
+          <li>Mono: records one channel at a time</li>
+          <li>Stereo: records two channels at a time</li>
+          <li>MIDI: records your MIDI instrument</li>
+          <li>None: records nothing</li>
+        </ul>
+        <br><img src="track-input.png" alt="Track input options" width="800px" height="418px">
+        <br>
+        <br>The next step is recording your audio.
+      </p>
+    </div>
+  </div>
+
+
+  <footer>
+    <div>
+        <br>
+        <br>
+        <br>
+      <p>Made by Alain Martin</a></p>
+    </div>
+  </footer>
+
+
+</div>
+
+
+</body>
+</html>
