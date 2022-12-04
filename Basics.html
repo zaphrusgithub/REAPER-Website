@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>Getting Started</title>
+<link rel="icon" href="logo_sc.jpg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -20,6 +21,10 @@ footer{
     color:#E6E6E6;
     font-family: Courier New;
 }
+table{
+  color:green
+}
+
 </style>
 </head>
 <header>
@@ -52,12 +57,33 @@ footer{
         <br>
         <br>
         Recommendations:
-        <ul>
-          <li>Operating System: Windows 7/8/10 / macOS X 10.5-10.14</li>
-          <li>Audio Interfaces: Focusrite Scarlett 2i2, PreSonus AudioBox USB 96, Behringer U-Phoria UMC404HD</li>
-          <li>Headphones: Sony MDR-7506</li>
-          <li>Microphone: Rode NT-USB</li>
-        </ul>
+        <table style="width:100%">
+          <tr>
+            <th style="text-align:center">Operating System</th>
+            <th style="text-align:center">Audio Interfaces</th>
+            <th style="text-align:center">Headphones</th>
+            <th style="text-align:center">Microphone</th>
+          </tr>
+          <tr>
+            <td style="text-align:center">Windows 7/8/10</td>
+            <td style="text-align:center">Focusrite Scarlett 2i2</td>
+            <td style="text-align:center">Sony MDR-7506</td>
+            <td style="text-align:center">Rode NT-USB</td>
+          </tr>
+          <tr>
+            <td style="text-align:center">macOS X 10.5-10.14</td>
+            <td style="text-align:center">PreSonus AudioBox USB 96</td>
+            <td style="text-align:center">Audio-Technica ATH-M50X</td>
+            <td style="text-align:center">Behringer TM1</td>
+          </tr>
+          <tr>
+            <td style="text-align:center">Linux x86_64</td>
+            <td style="text-align:center">Behringer U-Phoria UMC404HD</td>
+            <td style="text-align:center">Sony MDR7506</td>
+            <td style="text-align:center">Shure SM7B</td>
+          </tr>
+        </table>
+        <br>
         <br>
         You need to make sure you're using compatible operating systems otherwise REAPER won't work correctly. Linux is availible to be used but REAPER for those systems are experimental and unsupported.
         For audio interfaces they all do the same thing so it doesn't matter as much. It only matters if your microphone phantom powered, then you need to make sure your interface is compatible.(Most recent interfaces are.)
